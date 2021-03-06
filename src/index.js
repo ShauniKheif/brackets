@@ -18,4 +18,3 @@ module.exports = function check(str, bracketsConfig) {
   }
   return stack.length == 0 ? true : false; 
  }
-}
